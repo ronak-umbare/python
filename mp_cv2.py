@@ -22,7 +22,7 @@ while cap.isOpened():
     if results.multi_hand_landmarks:
         for h in results.multi_hand_landmarks:
             h, w, c = img.shape
-            X, Y = h[4].x*w, h[4].
+            X, Y = h[4].x*w, h[4]
             drawingUtils.draw_landmarks(img, h, mpHand.HAND_CONNECTIONS)
     
     # Display the resulting frame
