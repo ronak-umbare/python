@@ -15,6 +15,6 @@ paytmQR = qrcode.make(paytm)
 gpayQR = qrcode.make(gpay)
 
 #saving
-phonepayQr.show("phpe.png")
-paytmQR.show("payt.png")
+# phonepayQr.show("phpe.png")
+# paytmQR.show("payt.png")
 gpay.show("gpay.png")
